@@ -1,0 +1,32 @@
+# Ignore everything by default
+*
+
+# Allow Git to look inside subdirectories
+!*/
+
+# Keep this file
+!.gitignore
+
+# KiCad project, PCB and schematics
+!*.kicad_pro
+!*.kicad_pcb
+!*.kicad_sch
+
+# Custom design rules and drawing sheets
+!*.kicad_dru
+!*.kicad_wks
+
+# Custom symbol and footprint libraries
+!*.kicad_sym
+!*.kicad_mod
+!sym-lib-table
+!fp-lib-table
+
+
+
+
+# Exclude backup directories, including KiCad files inside them
+# Exclude history folders anywhere in the project
+**/.history/
+**/*-backups/
+**/_restore_backup*/

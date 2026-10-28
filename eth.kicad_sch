@@ -4686,6 +4686,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 157.48) (xy 204.47 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952001b9-2b00-4dd5-a805-99e403b19be5")
+	)
+	(wire
+		(pts
 			(xy 128.27 106.68) (xy 128.27 147.32)
 		)
 		(stroke
@@ -5244,6 +5254,16 @@
 		)
 		(uuid "fb44ab09-cbf1-4779-858c-c6909ab15451")
 	)
+	(wire
+		(pts
+			(xy 212.09 157.48) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5a1392-bfe8-460f-9e22-3658521da355")
+	)
 	(label "LED_Y"
 		(at 339.09 156.21 0)
 		(effects
@@ -5381,7 +5401,7 @@
 		)
 	)
 	(global_label "NRST"
-		(shape input)
+		(shape bidirectional)
 		(at 92.71 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6369,6 +6389,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29815452-b3a5-4f2b-b883-79241208125f")
+		(property "Reference" "#PWR065"
+			(at 213.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7699083-4b30-402b-a8a5-019576ace2bc")
+		)
+		(instances
+			(project "R-CoreLink"
+				(path "/3b63e378-a682-46ed-94a6-2b5b049fe85d"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 335.28 171.45 180)
 		(unit 1)
@@ -6640,6 +6738,97 @@
 			(project "R-CoreLink"
 				(path "/3b63e378-a682-46ed-94a6-2b5b049fe85d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7504b0-8221-4e96-9151-83543019c783")
+		(property "Reference" "R42"
+			(at 208.28 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12K1"
+			(at 208.28 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 208.28 159.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a306aef-8e88-44ec-a888-95e1114a562a")
+		)
+		(pin "1"
+			(uuid "31ad1e1f-64f8-448b-9472-df17c1d6ebe0")
+		)
+		(instances
+			(project "R-CoreLink"
+				(path "/3b63e378-a682-46ed-94a6-2b5b049fe85d"
+					(reference "R42")
 					(unit 1)
 				)
 			)

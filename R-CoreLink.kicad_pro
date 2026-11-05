@@ -278,7 +278,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2400300|2438400|1db27cd4-f341-4b9a-acd1-0bdd5b66e848|00000000-0000-0000-0000-000000000000|/6f5cf168-ffce-48a2-a246-d0147e3345e5|/6f5cf168-ffce-48a2-a246-d0147e3345e5|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|3060700|1333500|36cc5365-4d4e-431e-890a-f0647053d95e|00000000-0000-0000-0000-000000000000|/6f5cf168-ffce-48a2-a246-d0147e3345e5|/6f5cf168-ffce-48a2-a246-d0147e3345e5|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|3060700|1485900|0e4e88c3-07b2-47ca-ac56-3df86ef2be40|00000000-0000-0000-0000-000000000000|/6f5cf168-ffce-48a2-a246-d0147e3345e5|/6f5cf168-ffce-48a2-a246-d0147e3345e5|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -290,7 +303,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -304,7 +317,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         2,
@@ -318,7 +331,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         1,
         0,
@@ -332,7 +345,7 @@
         0,
         0,
         0,
-        1,
+        0,
         1,
         2,
         1,
@@ -346,7 +359,21 @@
         0,
         0,
         0,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -361,20 +388,6 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
         1,
         1,
         1,
@@ -482,9 +495,9 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -707,6 +720,30 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -778,12 +815,17 @@
       },
       {
         "filename": "thermo_sensor.kicad_sch",
-        "name": "Thermo sensor",
+        "name": "MUX_frontend",
         "uuid": "a0cffd18-a5d3-4cff-bbb4-2e545e95dd5d"
       }
     ],
-    "used_designators": "R1-95,J1-22,U1-12,L1-5,BT1-2,TR1,#PWR1-102,C1-74,P1-2,Q1-4,Y1-3,D1-18,IC1-8,TH1-2",
-    "variants": []
+    "used_designators": "R1-135,J1-22,U1-37,L1-7,BT1-2,TR1,#PWR1-161,C1-88,P1-2,Q1-10,Y1-3,D1-20,IC1-12,TH1-2,NT1-2,TP1-2",
+    "variants": [
+      {
+        "description": "Population for PT100",
+        "name": "PT1000"
+      }
+    ]
   },
   "sheets": [
     [
@@ -808,23 +850,31 @@
     ],
     [
       "a0cffd18-a5d3-4cff-bbb4-2e545e95dd5d",
-      "Thermo sensor"
+      "MUX_frontend"
     ],
     [
       "4b409338-a99e-40a5-9f05-78058e2ec13d",
-      "Thermo"
+      "MUX_AN_IN"
     ],
     [
-      "24e9bef2-ff6f-46a5-b113-0267fd257619",
-      "Thermo1"
+      "15bee673-bad5-4e73-9d6e-efe31850357a",
+      "AnalogInput"
     ],
     [
-      "7772dadc-7c7d-479e-b1a7-e7c22d2b283b",
-      "Thermo2"
+      "abb923ba-57cc-42bc-a6b1-876d941f9a97",
+      "AnalogInput1"
     ],
     [
-      "3cbc64bd-0b08-4441-ad91-5acf0356aab0",
-      "Thermo3"
+      "ccedec3c-5d0d-4626-814c-1a10d0303fa0",
+      "AnalogInput2"
+    ],
+    [
+      "008a68d3-f828-4b7d-a8f5-d578c8bc9fcd",
+      "AnalogInput3"
+    ],
+    [
+      "88e343db-7885-472b-9e56-be74b8ac6d86",
+      "AnalogBackend"
     ]
   ],
   "text_variables": {},

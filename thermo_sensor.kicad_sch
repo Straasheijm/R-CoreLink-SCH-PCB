@@ -1576,7 +1576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 210.82 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2522,7 +2522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 210.82 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 210.82 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)

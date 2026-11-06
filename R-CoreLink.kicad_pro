@@ -819,7 +819,7 @@
         "uuid": "a0cffd18-a5d3-4cff-bbb4-2e545e95dd5d"
       }
     ],
-    "used_designators": "R1-135,J1-22,U1-37,L1-7,BT1-2,TR1,#PWR1-161,C1-88,P1-2,Q1-10,Y1-3,D1-20,IC1-12,TH1-2,NT1-2,TP1-2",
+    "used_designators": "R1-135,J1-22,U1-37,L1-7,BT1-2,TR1,#PWR1-161,C1-95,P1-2,Q1-10,Y1-3,D1-20,IC1-12,TH1-2,NT1-2,TP1-2",
     "variants": [
       {
         "description": "Population for PT100",
@@ -875,6 +875,10 @@
     [
       "88e343db-7885-472b-9e56-be74b8ac6d86",
       "AnalogBackend"
+    ],
+    [
+      "be1acb99-5e01-4920-801e-9fc1c46fdcfb",
+      "AD_IO_Sheet"
     ]
   ],
   "text_variables": {},

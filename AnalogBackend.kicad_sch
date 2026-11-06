@@ -2246,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 110.49 80.01)
+			(xy 110.49 77.47) (xy 110.49 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3102,10 +3102,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "081a96b3-d858-419e-a06d-906dadb0cec9")
 		(property "Reference" "U25"
-			(at 133.35 101.5298 0)
+			(at 124.46 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3115,7 +3114,7 @@
 			)
 		)
 		(property "Value" "TLV9061xDCK"
-			(at 133.35 104.0698 0)
+			(at 127.762 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4951,7 +4950,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e3c42dc-d424-43e2-86d6-bab9af5f2f18")
 		(property "Reference" "#PWR0147"
 			(at 125.73 100.33 0)
@@ -4965,7 +4963,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 125.73 99.06 0)
+			(at 129.794 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6703,7 +6701,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 110.49 80.01 0)
+		(at 110.49 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6714,7 +6712,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8031adc-af82-4c3a-b16b-bcc19933322d")
 		(property "Reference" "#PWR0120"
-			(at 110.49 86.36 0)
+			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6723,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 110.49 85.09 0)
+			(at 110.49 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6735,7 +6733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 80.01 0)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +6744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 80.01 0)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 110.49 80.01 0)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,7 +7323,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb627688-4660-478b-a614-be8826abcbb1")
 		(property "Reference" "#PWR0158"
 			(at 80.01 59.69 0)
@@ -7339,7 +7336,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 80.01 58.42 0)
+			(at 82.804 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
